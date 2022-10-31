@@ -7,8 +7,8 @@ R package 'tempr' gives essential funtions. Area of circle and length of the str
 1. Installation
 
 ```{r}
-install.packages("stringr")
-library(stringr)
+R> install.packages("stringr")
+R> library(stringr)
 #install R package that tempr depends before running the next line
 ```
 
@@ -16,7 +16,7 @@ library(stringr)
 2. Installation from CRAN
 
 ```{r}
-install.packages("tempr")
+R> install.packages("tempr")
 ```
 
 # Using **tempr** 
@@ -24,11 +24,11 @@ install.packages("tempr")
 After installation, load the tempr package into R:
 
 ```{r}
-library(tempr)
+R> library(tempr)
 ```
 
 Bring up the documentation of the package:
 
 ```{r}
-library(help=tempr)
+R> library(help=tempr)
 ```
