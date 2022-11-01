@@ -9,7 +9,6 @@
 #' @examples
 #' length_string("A")
 length_string <- function(x) {
-  install.packages("stringr")
   print(paste0(stringr::str_count(x)))
   #Raee
 }
