@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[T1]{fontenc}
+
+\usepackage{authblk}
+\title{Seminar 501 Report}
+\author{Raee Bhagat}
+\affil{College of Science, University of Idaho}
+{
+    \makeatletter
+    \renewcommand\AB@affilsepx{: \protect\Affilfont}
+    \makeatother
+
+    \affil[ ]{Email ids}
+
+    \affil{bhag9738@vandals.uidaho.edu}
+}
+
+\begin{document}
+\maketitle
+    \begin{abstract}
+    My experiment's purpose was to use all the skills I learned in seminar 501. In constructing this report, I used La-Tex with the overleaf. I included the process of constructing the R package with my GitHub link.
+    \end{abstract}
+
+\section{Introduction}
+R package 'tempr' gives essential functions. Area of circle and length of the string. This package calculates the area of the circle independently, whereas calculating the length of the string depends on another package 'stringr'.
+
+\href{https://github.com/Raee-Bhagat/R_package}{link}.
+
+Find latex of this report \cite{Raee_LaTeX}.
+
+\section{Methods}
+\subsection{Square Matrix Representation}
+First, I created a matrix environment, by using begin{matrix} and end{matrix}.
+    \begin{itemize}
+        \item `pmatrix` used for parenthesis
+        $$
+        A_{3\times3}=
+        \begin{pmatrix}
+        1 & 2 & 3 \\
+        4 & 5 & 6 \\
+        7 & 8 & 9
+        \end{pmatrix}
+        $$
+
+    \end{itemize}
+    For my package for calculating the area of the circle, first, need to install package \textbf{tempr}. This package depends on another package to get the length of the string, for that need to install the package called 'stringr'. After installation, load the \textbf{tempr} package into R. Then, you are ready to use package \textbf{tempr}.
+    To calculate the area of the circle, I used
+    \begin{equation} \label{eu_eqn}
+    C = \pi r^2
+    \end{equation}
+    formula (\ref{eu_eqn})
+    
+
+\section{Results}
+    To calculate the area of a desirable circle, you just need to enter the value of the radius. Using the notation "area(2)", in this case, 2 is your radius of the desirable circle.
+    \begin{eqnarray}
+    C = \pi r^2 = \pi \times 2^2 = 12.5666
+    \end{eqnarray}
+    Here, I wrote the R program such that it will round up the value of the area of the circle up to 4 decimal points.
+    
+\section{Discuss}
+Bring up the documentation of the package by using \textbf{library(help=tempr)}.
+In the description of both the functions, the area of the circle, and the length of the string, we will find the example which guides you on how to use the function.
+
+\section{Acknowledgements}
+I would like to express my deepest appreciation to all those who provided me with the possibility to complete this report. Special gratitude gives to our Seminar 501 professor, \textbf{Dr. Andrey Fu}, who guided and made this course more interesting.
+I have to appreciate the guidance given by \textbf{Dr.Chris Williams} and \textbf{Dr. Tim}, especially for internship guidance.
+\subsection{Good luck!}
+    \begin{thebibliography}{10}
+        \bibitem{Raee_LaTeX}
+        You can find the LaTeX version of this report on the following GitHub link.
+        \href{https://github.com/Raee-Bhagat/R_package/new/main}{link}.
+        \textit{Frontiers in genetics, 10,}
+        460
+    \end{thebibliography}
+    
+\end{document}
