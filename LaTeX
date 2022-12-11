@@ -73,9 +73,9 @@ In the description of both the functions, the area of the circle, and the length
 I would like to express my deepest appreciation to all those who provided me with the possibility to complete this report. Special gratitude gives to our Seminar 501 professor, \textbf{Dr. Andrey Fu}, who guided and made this course more interesting.
 I have to appreciate the guidance given by \textbf{Dr.Chris Williams} and \textbf{Dr. Tim}, especially for internship guidance.
 \subsection{Good luck!}
+You can find the LaTeX version of this report on the following GitHub link.
     \begin{thebibliography}{10}
         \bibitem{Raee_LaTeX}
-        You can find the LaTeX version of this report on the following GitHub link.
         \href{https://github.com/Raee-Bhagat/R_package/new/main}{link}.
         \textit{Frontiers in genetics, 10,}
         460
